@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <main class="main-container">
+        <form action="submitsec.html" class="form-container">
+            <fieldset class="ield-container">
+                <legend class="leg">This is my form</legend>
+                <table>
+                    <tr>
+                        <td class="td-container"><label class="all-inputs" for="mail-p">Email:</label></td>
+                        <td><input id="mail-p" class="input-style" type="email" required></td>
+                    </tr>
+                    <tr>
+                        <td class="td-container"><label class="all-inputs" for="pass-1">Password:</label></td>
+                        <td><input id="pass-1" class="input-style" type="password" required></td>
+                    </tr>
+                    <tr>
+                        <td class="td-container"><label class="all-inputs" for="pass-2">Confirm Password:</label></td>
+                        <td><input id="pass-2" class="input-style" type="password" required></td>
+                    </tr>
+                    <tr>
+                        <td class="td-container"><label class="all-inputs" for="pic">Update your picture:</label></td>
+                        <td><input id="pic"type="file" required></td>
+                    </tr>
+                    <tr>
+                        <td class="td-container"><label class="all-inputs">Gender:</label></td>
+                        <td>
+                            <input type="radio" name="gender" id="g1" required><label for="g1" class="all-inputs">Male</label>
+                            <input type="radio" name="gender" id="g2" required><label for="g2" class="all-inputs">Female</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td-container"><label class="all-inputs" for="sel">Select your country:</label></td>
+                        <td>
+                            <select class="input-style" id="sel" class="all-inputs">
+                            <option value="United kindom">United kindom</option>
+                            <option value="india">india</option>
+                            <option value="canada">Canada</option>
+                            <option value="australia">australia</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td class="td-container"><label class="all-inputs">Hobby:</label></td>
+                        <td>
+                            <input type="checkbox" name="gender" id="c1" required><label class="all-inputs" for="c1">Male</label>
+                            <input type="checkbox" name="gender" id="c2" required><label class="all-inputs" for="c2">Female</label>
+                        </td>
+                    </tr>
+                    <tr class="tr-container">
+                        <td class="td-container"><label class="all-inputs ad" for="add">Address:</label></td>
+                        <td><textarea class="input-style" name="address" id="add" cols="23" rows="6" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td class="td-container"></td>
+                        <td><input type="submit" class="input-style"></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>

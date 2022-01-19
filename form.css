@@ -1,0 +1,42 @@
+.field-container{
+    border: rgb(255, 166, 0) 2px solid;
+    padding: 20px;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table-container{
+    align-self: center;
+    padding: 20px;
+}
+.leg{
+    color: rgb(185, 16, 16);
+    background-color: orange;
+    padding: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+html{
+    font-size: 10px;
+}
+.input-style{
+    background-color: rgb(240, 166, 28);
+    color: rgb(124, 19, 19);
+}
+.all-inputs{
+    font-size: 1.6rem;
+}
+.tr-container{
+    position: relative;
+}
+.ad{
+    position: absolute;
+    top: 0;
+}
+.td-container{
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px;
+}
